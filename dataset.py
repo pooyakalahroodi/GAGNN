@@ -6,7 +6,7 @@ import torch
 import torch.utils.data as Data
 
 
-path = './data'
+path = '/content/drive/MyDrive/GAGNN/City Air Quality Forecasting'
 
 class trainDataset(Data.Dataset):
 	def __init__(self, transform=None, train=True):
